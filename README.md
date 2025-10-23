@@ -39,23 +39,15 @@ This project helps you understand:
 ### Installation
 
 1. **Clone the repository**
->git clone https://github.com/theo-huret/data-pipeline-example.git
->cd data-pipeline-example
+>git clone https://github.com/theo-huret/data-pipeline-example.git, cd data-pipeline-example
 
 2. **Set up Python environment**
->python3.12 -m venv .venv
->source .venv/bin/activate # On Windows: .venv\Scripts\activate
+>python3.12 -m venv .venv, source .venv/bin/activate # On Windows: .venv\Scripts\activate
 
 3. **Install dependencies**
 >pip install dltdbt-core dbt-postgres requests
  
 4. **Configure environment variables**
->export POKE_PG_HOST="localhost"
->export POKE_PG_PORT="5432"
->export POKE_PG_USER="your_username"
->export POKE_PG_PWD="your_password"
->export POKE_PG_DB="pokemon_db"
->export POKE_PG_SCHEMA="poke_bronze"
 
 5. **Run dlt to ingest data**
 >python dlt_poke.py
