@@ -1,0 +1,90 @@
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+dbt_modules/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# dlt specific
+.dlt/
+*.duckdb
+*.duckdb.wal
+
+# Environment variables & secrets
+.env
+.env.local
+secrets.toml
+config.toml
+*.secret
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Profiles (contains credentials)
+profiles.yml
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Package managers
+poetry.lock
+Pipfile.lock
